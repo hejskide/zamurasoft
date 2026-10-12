@@ -36,12 +36,12 @@ form?.addEventListener("submit", (event) => {
     `Nombre: ${name}\nCorreo: ${email}\nTipo: ${type}\n\n${message}`
   );
 
-  window.location.href = `mailto:hola@zamurasoft.com?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:zamurasoft@gmail.com?subject=${subject}&body=${body}`;
 
   if (status) {
     status.hidden = false;
     status.textContent =
-      "Se abrió tu cliente de correo. Si no ocurre, escríbenos a hola@zamurasoft.com.";
+      "Se abrió tu cliente de correo. Si no ocurre, escríbenos a zamurasoft@gmail.com.";
   }
 
   form.reset();
